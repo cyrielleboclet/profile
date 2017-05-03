@@ -1,0 +1,79 @@
+body {
+  background-image: url(../images/background.png);
+  color: #F5F5F5;
+  font-family: 'Lato', sans-serif;
+  cursor: url(../images/cursor.png) 2 2, default;
+}
+
+
+.card {
+  width: 1000px;
+  margin: 0 auto;      /* Set automatic margins on right/left */
+  background: rgba(0, 0, 26, 0.7);
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid  #FFFAEF;       /* OR subtle border */
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.firstsentence {
+  text-align: center;
+}
+
+.lastsentence {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #F5F5F5;
+  text-decoration: none;
+  cursor: url(../images/bomba.png) 1 1, default;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+a i {
+  margin-right: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.planets {
+  border-radius: 20%;
+  margin-bottom: 40px;
+  height: 200px;
+  width: 300px;
+}
+
+.photoprofile {
+  border-radius: 50%;
+  margin-left: 300px;
+  height: 400px;
+  width: 400px;
+}
+
+.shadowed {
+  box-shadow: 3px 3px 5px #FFFAEF;
+}
+
+.bottom {
+  align-content: center;
+}
