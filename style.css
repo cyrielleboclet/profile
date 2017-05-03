@@ -2,7 +2,7 @@ body {
   background-image: url(../images/background.png);
   color: #F5F5F5;
   font-family: 'Lato', sans-serif;
-  cursor: url(../images/cursor.png) 2 2, default;
+  cursor: url(images/cursor.png) 2 2, default;
 }
 
 
@@ -36,7 +36,7 @@ ul {
 a {
   color: #F5F5F5;
   text-decoration: none;
-  cursor: url(../images/bomba.png) 1 1, default;
+  cursor: url(images/bomba.png) 1 1, default;
 }
 
 a:hover {
